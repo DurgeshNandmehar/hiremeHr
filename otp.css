@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.pt2rem {
+  padding-top: 2rem;
+}
+
+.w-80px {
+  width: 80px;
+}
+
+.text-gray {
+  color: #808080;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mb-2rem {
+  margin-bottom: 2rem;
+}
+
+.fs-1_2rem {
+  font-size: 1.2rem;
+}
+
+.fs-12px {
+  font-size: 12px;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.otp-form {
+  padding: 0px 8px;
+}
+
+.mb1rem {
+  margin-bottom: 1rem;
+}
+
+.mbrem {
+  margin-bottom: 0.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1-rem {
+  gap: 1rem;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.input {
+  width: 40px;
+  border: none;
+  background: #ebebeb;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 1.8rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mt-2rem {
+  margin-top: 2rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  padding: 7px 10px;
+  color: white;
+  border: none;
+  background-color: #c1272d;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+}
+
+.border {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0px 1rem;
+}
+
+.detailsLogo {
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c1272d;
+  box-shadow: 0px 0px 0px 2px #ffcbcd;
+}
+
+.detailsLogo img {
+  width: 15px;
+}
+
+.inputField {
+  margin-bottom: 1rem;
+}
+
+.inputField label {
+  margin-bottom: 4px;
+  font-size: 13px;
+  display: block;
+  text-align: left;
+}
+
+.font14px {
+  font-size: 14px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  background-color: #F5F5F5;
+  border-radius: 2px;
+}
+
+.px1rem {
+  padding: 0px 0.8rem;
+}
+
+.personalDetails {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.personalImageBg {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #c1272d;
+  box-shadow: 0 0 0px 3px #ffe2e2;
+}
+
+.personalImageBg img {
+  width: 25px;
+}
+
+@media screen and (min-width: 640px) {
+
+  .personalImageBg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .personalImageBg img {
+    width: 35px;
+  }
+
+  .otp-form {
+    width: 400px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .adjustWidth {
+    width: 430px;
+    margin: auto;
+  }
+
+  .detailsLogo {
+    padding: 14px;
+  }
+
+  .detailsLogo img {
+    width: 25px;
+  }
+
+  .firstInput {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+.text91 {
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+  background-color: #ededed;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.verify {
+  /* width: 100%; */
+  border: none;
+  padding: 5px 0px;
+  color: white;
+  background-color: #34ad78;
+}
+
+.primaryColor {
+  background-color: #c1272d;
+}
+
+.secondryColor {
+  color: #575E6A;
+}
+
+.border-none {
+  border: none;
+}
+
+.py2rem {
+  padding: 2rem 0px;
+}
+
+.text-white {
+  color: white;
+}
+
+.hiremiLogo {
+  text-align: left;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  padding-bottom: 8px;
+  padding-left: 1rem;
+}
+
+.radioButton {
+  transform: translateY(2px);
+}
+
+.organisationWidth {
+  display: grid;
+}
+
+@media screen and (min-width:769px) {
+
+  .orgAdjustWidth {
+    width: 770px;
+    margin: auto;
+  }
+
+  .organisationWidth {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.font-12px {
+  font-size: 12px;
+}
+
+.gap1rem {
+  gap: 1rem;
+}

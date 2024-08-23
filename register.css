@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.text-gray {
+  color: #898989;
+}
+
+.employer {
+  font-size: 12px;
+  margin-bottom: 1.2rem;
+}
+
+.font-popins {
+  font-family: "Poppins", sans-serif;
+}
+
+.Create {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.please {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.block {
+  display: block;
+}
+
+.input {
+  background: transparent;
+  outline: none;
+  padding: 8px 10px;
+  border: none;
+  width: 100%;
+  padding: 8px 6px;
+}
+
+.border {
+  border-radius: 2px;
+  background-color: #eeeeee;
+  padding: 0px 8px;
+}
+
+.companyLable {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.inputMB {
+  margin-bottom: 1rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.number {
+  display: flex;
+  gap: 6px;
+}
+
+.n91 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 0px 8px;
+  background-color: #eeeeee;
+  border-radius: 2px;
+}
+
+.by {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.make {
+  padding: 8px 0;
+  width: 100%;
+  background: #c1272d;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.already {
+  font-size: 12px;
+  text-align: center;
+  color: #ababab;
+}
+
+.py {
+  padding: 1.5rem 0px;
+}
+
+.bl {
+  border-left: 1px solid #d1d1d1;
+}
+
+.width {
+  padding: 0 10px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .width {
+    padding: 0px 10px;
+    width: 400px;
+    margin: auto;
+  }
+
+  .namePerent {
+    display: flex;
+    gap: 10px;
+  }
+
+  .hire {
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .text-align {
+    text-align: left;
+  }
+}
