@@ -9,39 +9,42 @@
   <body>
     <section>
       <div class="text-center py2rem">
-        <div class="hiremiLogo">
+        <div class="hiremiLogo mb-2rem">
           <img src="/images/logo.png" alt="*" class="w-80px" />
           <p class="text-gray">Employer Login</p>
         </div>
 
         <div class="px1rem orgAdjustWidth">
           <div class="personalDetails">
-            <div>
-              <label class="inline-block mbrem font-12px"
+            <div class="">
+              <label class="inline-block mbrem font-12px title"
                 >Personal Details</label
               >
               <div class="personalImageBg" style="background-color: #c1272d">
                 <img src="/images/user.png" alt="*" />
               </div>
             </div>
-            <div>
-              <label class="inline-block mbrem font-12px"
-                >Personal Details</label
+            <div class="">
+              <label class="inline-block mbrem font-12px title"
+                >Organisation Details</label
               >
               <div class="personalImageBg">
                 <img src="/images/suit.png" alt="*" />
               </div>
             </div>
-            <div>
-              <label class="inline-block mbrem font-12px">Other Details</label>
+            <div class="">
+              <label class="inline-block mbrem font-12px title postJob"
+                >Post Job Internships/Job Details</label
+              >
               <div class="personalImageBg">
                 <img src="/images/doc.png" alt="*" />
               </div>
             </div>
           </div>
           <h6 class="text-normal fs-1_2rem mb1rem">Organisation Details</h6>
+
           <div class="organisationWidth gap1rem mbrem">
-            <div class="border">
+            <div class="border prem">
               <div class="personalForm">
                 <div class="inputField grow1">
                   <label for="">Organisation Name</label>
@@ -75,20 +78,26 @@
                 </div>
 
                 <div class="inputField">
-                  <label for="">Phone Number</label>
-                  <div class="w-100">
-                    <div class="flex">
-                      <div class="text91 text-gray mbrem">+91</div>
-                      <div class="inputBox grow1 mbrem">
-                        <input type="text" placeholder="Enter Mobile Number" />
+                  <div>
+                    <label for="">Phone Number</label>
+                    <div class="w-100">
+                      <div class="flex">
+                        <div class="text91 text-gray mbrem">+91</div>
+                        <div class="inputBox grow1 mbrem">
+                          <input
+                            type="text"
+                            placeholder="Enter Mobile Number"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div></div>
                 </div>
               </div>
             </div>
 
-            <div class="border text-gray fs-12px text-left">
+            <div class="border text-gray fs-12px text-left prem">
               <div class="mbrem">
                 <label for="" class="font14px inline-block mb1rem secondryColor"
                   >Organisation Verification</label
@@ -154,7 +163,7 @@
           </div>
 
           <!-- Instruction  -->
-          <ul class="px1rem text-left mb1rem">
+          <ul class="px1rem text-left mb-2rem" s>
             <label class="inline-block mbrem secondryColor">Intruction</label>
             <li class="mb1rem font-12px text-gray">
               Max file: 1Mb and max resolution: 500px x 500px. File type: jpeg,
@@ -166,7 +175,7 @@
             </li>
           </ul>
 
-          <button class="w-100 btn">Save & Next</button>
+          <button class="w-100 btn save">Save & Next</button>
         </div>
       </div>
     </section>
